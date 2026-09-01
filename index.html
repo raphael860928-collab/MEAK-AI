@@ -58,7 +58,7 @@
       <p class='max-w-3xl mx-auto mt-6 text-lg text-slate-600'>공식 기술 문서를 기반으로 신뢰할 수 있는 답변과 정확한 근거를 제공합니다.</p>
     </section>
 
-    <!-- AI Cards (7개 카드 반응형 Layout) -->
+    <!-- AI Cards Layout -->
     <div class='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
       <!-- 1. Servo Card -->
       <div class='glass card rounded-3xl p-6 flex flex-col justify-between'>
@@ -171,6 +171,106 @@
         </div>
         <a id='btn_got' target='_blank' class='block mt-8 bg-rose-600 hover:bg-rose-700 rounded-2xl py-3.5 text-center text-white text-sm font-bold transition-colors'>GOT AI 실행하기</a>
       </div>
+
+      <!-- ==================== [신규 추가 6개 카드 시작] ==================== -->
+
+      <!-- 8. FX Special Positioning Card -->
+      <div class='glass card rounded-3xl p-6 flex flex-col justify-between'>
+        <div>
+          <div class='w-10 h-10 rounded-xl bg-teal-100 text-teal-600 flex items-center justify-center font-bold mb-4'>1PG</div>
+          <h3 class='text-xl font-bold text-slate-800'>FX Special Pos. AI</h3>
+          <p class='mt-2 text-xs text-slate-600'>FX2N-1PG · 10GM · 20GM</p>
+          <ul class='mt-6 space-y-2.5 text-xs text-slate-500'>
+            <li>✓ Pulse Output & Positioning Block</li>
+            <li>✓ 1PG / GM Unit Parameter Setup</li>
+            <li>✓ Wiring, Command & Error Guide</li>
+            <li>✓ Dedicated Program Troubleshooting</li>
+          </ul>
+        </div>
+        <a id='btn_fx_pos' target='_blank' class='block mt-8 bg-teal-600 hover:bg-teal-700 rounded-2xl py-3.5 text-center text-white text-sm font-bold transition-colors'>FX 위치결정 AI 실행하기</a>
+      </div>
+
+      <!-- 9. Recorder Card -->
+      <div class='glass card rounded-3xl p-6 flex flex-col justify-between'>
+        <div>
+          <div class='w-10 h-10 rounded-xl bg-red-100 text-red-600 flex items-center justify-center font-bold mb-4'>REC</div>
+          <h3 class='text-xl font-bold text-slate-800'>Recorder AI Assistant</h3>
+          <p class='mt-2 text-xs text-slate-600'>System Recorder · Camera Recorder</p>
+          <ul class='mt-6 space-y-2.5 text-xs text-slate-500'>
+            <li>✓ Video & System Log Recording</li>
+            <li>✓ Camera Integration & Trigger Config</li>
+            <li>✓ Fault Root Cause Analysis</li>
+            <li>✓ Playback & Diagnostic Guide</li>
+          </ul>
+        </div>
+        <a id='btn_rec' target='_blank' class='block mt-8 bg-red-600 hover:bg-red-700 rounded-2xl py-3.5 text-center text-white text-sm font-bold transition-colors'>레코더 AI 실행하기</a>
+      </div>
+
+      <!-- 10. Comm Remote Card -->
+      <div class='glass card rounded-3xl p-6 flex flex-col justify-between'>
+        <div>
+          <div class='w-10 h-10 rounded-xl bg-cyan-100 text-cyan-600 flex items-center justify-center font-bold mb-4'>REM</div>
+          <h3 class='text-xl font-bold text-slate-800'>Comm. Remote AI</h3>
+          <p class='mt-2 text-xs text-slate-600'>Remote I/O · Field Network · Manual</p>
+          <ul class='mt-6 space-y-2.5 text-xs text-slate-500'>
+            <li>✓ Remote I/O Module Setting</li>
+            <li>✓ Network Switch & Map Config</li>
+            <li>✓ Communication Error Diagnostics</li>
+            <li>✓ Station Hardware Wiring Guide</li>
+          </ul>
+        </div>
+        <a id='btn_rem' target='_blank' class='block mt-8 bg-cyan-600 hover:bg-cyan-700 rounded-2xl py-3.5 text-center text-white text-sm font-bold transition-colors'>통신 리모트 AI 실행하기</a>
+      </div>
+
+      <!-- 11. Position Board Card -->
+      <div class='glass card rounded-3xl p-6 flex flex-col justify-between'>
+        <div>
+          <div class='w-10 h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center font-bold mb-4'>POS</div>
+          <h3 class='text-xl font-bold text-slate-800'>Position Board AI</h3>
+          <p class='mt-2 text-xs text-slate-600'>PCI Board · Multi-axis Motion Control</p>
+          <ul class='mt-6 space-y-2.5 text-xs text-slate-500'>
+            <li>✓ Board Hardware Installation</li>
+            <li>✓ Driver & API Library Usage</li>
+            <li>✓ Multi-Axis Motion Programming</li>
+            <li>✓ Board Error & Signal Analysis</li>
+          </ul>
+        </div>
+        <a id='btn_pos' target='_blank' class='block mt-8 bg-blue-600 hover:bg-blue-700 rounded-2xl py-3.5 text-center text-white text-sm font-bold transition-colors'>포지션 보드 AI 실행하기</a>
+      </div>
+
+      <!-- 12. MXR / MXF Card -->
+      <div class='glass card rounded-3xl p-6 flex flex-col justify-between'>
+        <div>
+          <div class='w-10 h-10 rounded-xl bg-indigo-100 text-indigo-800 flex items-center justify-center font-bold mb-4'>MX</div>
+          <h3 class='text-xl font-bold text-slate-800'>MXR / MXF AI Assistant</h3>
+          <p class='mt-2 text-xs text-slate-600'>MX Component · MX Field · Software</p>
+          <ul class='mt-6 space-y-2.5 text-xs text-slate-500'>
+            <li>✓ PC Communication Library Config</li>
+            <li>✓ PLC Read/Write API Settings</li>
+            <li>✓ Connection Error Code Search</li>
+            <li>✓ Field Network Software Guide</li>
+          </ul>
+        </div>
+        <a id='btn_mx' target='_blank' class='block mt-8 bg-indigo-800 hover:bg-indigo-900 rounded-2xl py-3.5 text-center text-white text-sm font-bold transition-colors'>MXR / MXF AI 실행하기</a>
+      </div>
+
+      <!-- 13. RD78 Motion Card -->
+      <div class='glass card rounded-3xl p-6 flex flex-col justify-between'>
+        <div>
+          <div class='w-10 h-10 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center font-bold mb-4'>78G</div>
+          <h3 class='text-xl font-bold text-slate-800'>RD78 Motion AI</h3>
+          <p class='mt-2 text-xs text-slate-600'>RD78GF · RD78G · Motion Module</p>
+          <ul class='mt-6 space-y-2.5 text-xs text-slate-500'>
+            <li>✓ CC-Link IE TSN Motion Config</li>
+            <li>✓ RD78 Multi-axis Control Program</li>
+            <li>✓ Synchronous / Cam Function Guide</li>
+            <li>✓ Motion Error Diagnosis & Tuning</li>
+          </ul>
+        </div>
+        <a id='btn_rd78' target='_blank' class='block mt-8 bg-purple-600 hover:bg-purple-700 rounded-2xl py-3.5 text-center text-white text-sm font-bold transition-colors'>RD78 AI 실행하기</a>
+      </div>
+      <!-- ==================== [신규 추가 6개 카드 끝] ==================== -->
+
     </div>
 
     <!-- Footer -->
@@ -181,26 +281,49 @@
   </div>
 
   <script>
-    // 🔗 NotebookLM 연결 주소 설정
+    /* 
+      ========================================================================
+      🔗 [링크 수정 방법] 아래 주소('YOUR_..._URL_HERE')에 NotebookLM URL을 넣어주세요.
+      ========================================================================
+    */
     const urls = {
+      // [기존 7개 링크]
       s: 'https://notebooklm.google.com/notebook/a498f300-cefa-4e83-9aab-60996a88d8af/preview',
       i: 'https://notebooklm.google.com/notebook/52bf4ae8-4ff1-422c-b88d-b18070393715/preview',
       q: 'https://notebooklm.google.com/notebook/41f476e8-7b20-4913-b4e0-e1bd26912a3a/preview',
       r: 'https://notebooklm.google.com/notebook/e0bf73c2-2eb8-4654-b943-385c7b46b590/preview',
       f: 'https://notebooklm.google.com/notebook/2cdcd6cd-1d23-4183-8523-beb60611e573/preview',
       fx3: 'https://notebooklm.google.com/notebook/e8f1da9a-4df6-4827-9fa9-8c623b8038ac/preview',
-      got: 'https://notebooklm.google.com/notebook/d70b2440-8d73-42a2-9ef0-d6aa1dfda4bc/preview'
+      got: 'https://notebooklm.google.com/notebook/d70b2440-8d73-42a2-9ef0-d6aa1dfda4bc/preview',
+
+      // [신규 6개 링크 지정 구역] ------------------------------------------------
+      fx_pos: 'https://notebook.google.com/notebook/18d996b8-ea4d-4e85-afd9-b2804ced52e1/preview', // 1. FX2N-1PG,10GM,20GM 링크
+      rec:    'https://notebook.google.com/notebook/1dfd571e-8b29-4258-8a22-a0bd04f057ee/previewE',        // 2. 시스템 레코더,카메라 레코더 링크
+      rem:    'https://notebook.google.com/notebook/d2b0df3e-0a83-4f4b-90c6-c42aa4ba1b5e/preview',     // 3. 통신 리모트 매뉴얼 링크
+      pos:    'https://notebook.google.com/notebook/ff3c1718-c75f-492a-bb96-aa734a6ab122',  // 4. 포지션 보드 링크
+      mx:     'https://notebook.google.com/notebook/21503b4d-04e1-4b51-82b6-fac733c4f8e5/preview',         // 5. MXR, MXF 링크
+      rd78:   'https://notebook.google.com/notebook/06946bad-2b38-4af6-98f1-715298231255/preview'             // 6. RD78GF, RD78G 링크
+      // -----------------------------------------------------------------------
     };
 
     // 버튼 요소 및 GA4 이벤트 바인딩 정보 설정
     const bindings = [
+      // 기존
       { id: 'btn_s', key: 's', label: 'Servo AI' },
       { id: 'btn_i', key: 'i', label: 'Inverter AI' },
       { id: 'btn_q', key: 'q', label: 'QPLC AI' },
       { id: 'btn_r', key: 'r', label: 'iQ-R AI' },
       { id: 'btn_f', key: 'f', label: 'iQ-F AI' },
       { id: 'btn_fx3', key: 'fx3', label: 'FX3 AI' },
-      { id: 'btn_got', key: 'got', label: 'GOT AI' }
+      { id: 'btn_got', key: 'got', label: 'GOT AI' },
+      
+      // 신규 추가 6개
+      { id: 'btn_fx_pos', key: 'fx_pos', label: 'FX Special Pos AI' },
+      { id: 'btn_rec', key: 'rec', label: 'Recorder AI' },
+      { id: 'btn_rem', key: 'rem', label: 'Comm Remote AI' },
+      { id: 'btn_pos', key: 'pos', label: 'Position Board AI' },
+      { id: 'btn_mx', key: 'mx', label: 'MXR MXF AI' },
+      { id: 'btn_rd78', key: 'rd78', label: 'RD78 AI' }
     ];
 
     // 링크 주소 연결 및 GA4 클릭 추적 이벤트 등록 (transport: 'beacon' 적용)
